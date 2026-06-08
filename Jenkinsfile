@@ -3,7 +3,7 @@ pipeline {
         label 'SPC'
     }
     triggers {
-        pollSCM('* * * *')
+        pollSCM('* * * * *')
     }
     stages {
         stage('git Checkout') {
