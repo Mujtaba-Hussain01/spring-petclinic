@@ -27,5 +27,9 @@ pipeline {
                 }
             }
         }
+        stage(Artifact Publishing) {
+            steps {
+            }
+        }
     }
 }
